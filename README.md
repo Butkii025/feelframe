@@ -2,7 +2,7 @@
 
 # FeelFrame
 
-**Multi-modal sentiment analysis platform that reads emotion from text**
+**Multi-modal Sentiment Analysis platform that reads emotion from text**
 
 
 # feelframe - Full-Stack Edition (Next.js + FastAPI)
