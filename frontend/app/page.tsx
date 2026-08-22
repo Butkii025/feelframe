@@ -50,10 +50,12 @@ export default function Home() {
         <div className="flex items-center gap-2 mb-10">
           <div className="w-2 h-2 rounded-full bg-teal" />
           <span className="font-display text-sm tracking-[0.2em] uppercase text-slate">
-            FeelFrame - Multi-modal Sentiment Analysis platform that reads emotion from text
+            FeelFrame
+      
           </span>
+          
         </div>
-
+        <p className="text-slate text-sm mb-8"> Multi-modal Sentiment Analysis platform that reads emotion from text </p>
         {/* Hero: the input itself */}
         <h1 className="font-display text-3xl md:text-4xl font-medium text-ink mb-2 leading-tight">
           Type a sentence.
@@ -61,7 +63,7 @@ export default function Home() {
           Watch the needle move.
         </h1>
         <p className="text-slate text-sm mb-8">
-          A sentence goes in, a measured verdict comes out — positive, negative, and how sure it is.
+          A sentence goes in, a measured verdict comes out - positive, negative, and how sure it is.
         </p>
 
         {/* Input */}
@@ -102,7 +104,7 @@ export default function Home() {
           <p className="mt-4 text-coral text-sm">{error}</p>
         )}
 
-        {/* The gauge — signature element */}
+        {/* The gauge - signature element */}
         <div className="mt-10 bg-surface border border-border rounded-2xl p-8 flex flex-col items-center">
           <svg viewBox="0 0 200 120" className="w-full max-w-xs">
             {/* Arc track */}
@@ -160,7 +162,7 @@ export default function Home() {
                 </p>
               </>
             ) : (
-              <p className="text-slate text-sm font-mono">— awaiting input —</p>
+              <p className="text-slate text-sm font-mono">- awaiting input -</p>
             )}
           </div>
 
@@ -186,7 +188,7 @@ export default function Home() {
         </div>
 
         <p className="text-center text-slate/60 text-xs mt-8">
-          TF-IDF + Logistic Regression, trained on 50K IMDB reviews · 91% accuracy
+          TF-IDF + Logistic Regression, model trained on 50K IMDB reviews, 91% accuracy
         </p>
       </div>
     </main>
