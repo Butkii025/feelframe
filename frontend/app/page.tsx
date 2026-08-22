@@ -50,7 +50,7 @@ export default function Home() {
         <div className="flex items-center gap-2 mb-10">
           <div className="w-2 h-2 rounded-full bg-teal" />
           <span className="font-display text-sm tracking-[0.2em] uppercase text-slate">
-            Sentimeter
+            FeelFrame - Multi-modal Sentiment Analysis platform that reads emotion from text
           </span>
         </div>
 
